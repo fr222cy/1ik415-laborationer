@@ -14,5 +14,27 @@
             <li><a href="laborations.html">Laborations</a></li>    
             <li><a href="contact.html">Contact</a></li>        
         </ul>
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+          <fieldset>
+              <legend>Contact Me!</legend>
+                                Case:<select name="Case:">
+                                         <option  value="Question">Question</option>
+                                         <option  value="Statement">Statement</option>
+                                  </select>
+                                
+           Title:<input type="Text" name="Title:"><br>
+           Message:<textarea name="Text:" rows="3" cols="20"></textarea>
+          </fieldset>
+                  <fieldset>
+                      <legend>Contact me via:</legend>
+                      
+                           <input type="checkbox" name="ContactByMail:" value="Mail">Mail   
+                           <input type="checkbox" name="ContactByPhone:" value="Phone">Phone
+                        
+                           <input type="submit">
+               
+                  </fieldset>
+        </form>
     </body>
 </html>
