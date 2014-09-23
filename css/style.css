@@ -1,0 +1,58 @@
+body
+{
+margin: 0px;
+background:linear-gradient( Lightskyblue, white);  
+}
+
+
+#container
+{ 
+font-family:helvetica;    
+width: 900px; 
+margin-left: auto;
+margin-right: auto;
+background-color:Lightgoldenrodyellow;
+border: 1px solid black;
+border-top: 0px;
+border-bottom: 0px;
+}
+
+#header
+{
+border-bottom:1px solid black;
+}
+
+#navigator {
+padding-left:15px;    
+font-size:26px;
+position:fixed;
+display: block;
+width: 130px;
+height: 170px;
+line-height: 40px;
+float: left;
+font-size: 20px;
+background-color:lightskyblue;
+
+}
+#logo
+{
+    
+}
+#content
+{
+margin-left:152px;
+}
+
+
+
+.RightClass
+{
+float:right;
+padding:5px;
+}
+.LeftClass
+{
+float:left;
+padding:5px;   
+}
