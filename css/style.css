@@ -9,6 +9,7 @@ background:linear-gradient( Lightskyblue, white);
 { 
 font-family:helvetica;    
 width: 900px; 
+height:auto;
 margin-left: auto;
 margin-right: auto;
 background-color:Lightgoldenrodyellow;
@@ -19,26 +20,48 @@ border-bottom: 0px;
 
 #header
 {
-border-bottom:1px solid black;
-}
-
-#navigator {
-padding-left:15px;    
-font-size:26px;
-position:fixed;
-display: block;
-width: 130px;
-height: 170px;
-line-height: 40px;
-float: left;
-font-size: 20px;
-background-color:lightskyblue;
-
-}
-#logo
-{
     
+border-bottom:1px solid black;
+text-align:center;
+
 }
+
+#navigator 
+{
+width: 135px;
+line-height: 54px;
+float: left;
+font-size: 18px;
+}
+
+#navigator ul 
+{
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+#navigator li 
+{
+border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+	
+#navigator li a 
+{
+padding-left: 3px;
+display: block;
+background-color: Lightskyblue;
+color: black;
+text-decoration: none;
+}
+
+#navigator li a:hover 
+{
+font-size:19px;
+background-color: Deepskyblue;
+}
+
 #content
 {
 margin-left:152px;
@@ -49,10 +72,12 @@ margin-left:152px;
 .RightClass
 {
 float:right;
-padding:5px;
 }
+
 .LeftClass
 {
 float:left;
 padding:5px;   
 }
+
+
