@@ -1,31 +1,64 @@
+html
+{
+min-height:100%;
+}
 body
 {
+font-size: 1em;
+font-family: helvetica;
 margin: 0px;
-background:linear-gradient( Lightskyblue, white);  
+background: linear-gradient( Lightskyblue, white);  
+color:#222;
+}
+
+#header h1 
+{
+font-size: 40px;
+color:;    
+}
+
+h3
+{
+text-decoration:underline;
 }
 
 
 #container
 { 
-font-family:helvetica;    
+    
 width: 900px; 
-height:auto;
+height: auto;
 margin-left: auto;
 margin-right: auto;
 background-color:Lightgoldenrodyellow;
 border: 1px solid black;
 border-top: 0px;
-border-bottom: 0px;
+min-height: 700px;
 }
 
 #header
 {
-    
-border-bottom:1px solid black;
-text-align:center;
+background-image: url(pics/header.jpg);
+height:70px;
+border-bottom: 1px solid black;
+text-align: 
+center;
+margin-top:-20px;
 
 }
+#logo
+{
+float:left;
+position:absolute;
+}
 
+#musicsvg
+{
+float:right;
+}
+
+
+/*Navigator Section*/
 #navigator 
 {
 width: 135px;
@@ -34,7 +67,7 @@ float: left;
 font-size: 18px;
 }
 
-#navigator ul 
+#navigator ul
 {
 list-style: none;
 margin: 0px;
@@ -58,26 +91,41 @@ text-decoration: none;
 
 #navigator li a:hover 
 {
-font-size:19px;
+font-size: 19px;
+background-color: Deepskyblue;
+}
+#navigator li .active
+{
 background-color: Deepskyblue;
 }
 
 #content
 {
-margin-left:152px;
+margin-left: 152px;
+
 }
 
-
+#footer
+{
+position:relative;
+text-align: center;
+width:900px;
+margin:auto;
+}
 
 .RightClass
 {
-float:right;
+float: right;
 }
 
 .LeftClass
 {
-float:left;
-padding:5px;   
+float: left;
+padding: 5px;   
+}
+
+.clear{
+    clear:both;
 }
 
 
