@@ -11,19 +11,11 @@ background: linear-gradient( Lightskyblue, white);
 color:#222;
 }
 
-#header h1 
-{
-font-size: 40px;
-margin-top:0;
-}
-
 #h3 
 {
 text-decoration:underline;
 
 }
-
-
 
 #container
 { 
@@ -43,8 +35,15 @@ min-height: 700px;
 background-image: url(pics/header.jpg);
 height:70px;
 border-bottom: 1px solid black;
-text-align: center;
 }
+    #header h1 
+    {
+    text-align: center;
+    margin-top:0;
+    font-size: 40px;
+    }
+
+
 #logo
 {
 float:left;
@@ -55,7 +54,6 @@ position:absolute;
 {
 float:right;
 }
-
 
 /*Navigator Section*/
 #navigator 
@@ -103,8 +101,7 @@ background-color: Deepskyblue;
 
 #content
 {
-margin-left: 152px;
-
+    margin-left:152px;
 }
 
 #footer
@@ -133,7 +130,7 @@ padding: 5px;
 clear:both;
 }
 
-.Blogpicture
+.Blogpicture 
 {
 background:url('pics/scroll2.png') no-repeat;
 padding-left:20px;    
@@ -159,3 +156,27 @@ td
 padding: 4px;
 }
 /*End Table*/
+
+#content fieldset
+{
+position:relative;
+top:100px;
+left:100px;
+font-size:25px;
+border:1px solid black;
+border-radius:15px;
+    
+}
+#content form
+{
+float:left;
+}
+#content select
+{
+font-size:18px;
+}
+#content textarea
+{
+max-height:200px;
+max-width:400px;
+}

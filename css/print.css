@@ -1,0 +1,33 @@
+@media print 
+{
+#container 
+{
+border:none;
+}
+#header
+{
+border:none;
+}
+
+video
+{
+display:none;
+}
+#navigator
+{
+display:none;
+}
+#logo img
+{
+display:none;
+}
+
+
+#content 
+{
+float:left;
+}
+
+
+
+}
