@@ -1,33 +1,32 @@
 @media print 
 {
+    
 #container 
 {
 border:none;
 }
+
 #header
 {
 border:none;
 }
 
-video
+video, #navigator, #logo img
 {
 display:none;
 }
-#navigator
-{
-display:none;
-}
-#logo img
-{
-display:none;
-}
-
 
 #content 
 {
 float:left;
 }
-
-
+a:after
+{
+content:" (" attr(href) ") ";
+}
+#title
+{
+display:none;
+}
 
 }
