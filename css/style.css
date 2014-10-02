@@ -11,10 +11,11 @@ background: linear-gradient( Lightskyblue, white);
 color:#222;
 }
 
-#h3 
+
+
+h3 
 {
 text-decoration:underline;
-
 }
 
 #container
@@ -179,4 +180,13 @@ font-size:18px;
 {
 max-height:200px;
 max-width:400px;
+}
+
+a:visited
+{
+color:olive;
+}
+a:hover
+{
+font-size:16.1px;
 }
