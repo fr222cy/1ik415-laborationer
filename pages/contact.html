@@ -5,6 +5,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Contact me</title>
         <link rel="stylesheet" href="../css/style.css" />
+         <link rel="stylesheet" href="css/screen.css" media="screen"/>
     </head>
     <body>
     <div id="container">
@@ -18,10 +19,10 @@
     </div>
     <div id="navigator">
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborations.html">Laborations</a></li>
-            <li><a href="contact.html" class="active">Contact </a></li>
+            <li><a id="HomeIcon" href="../index.html">Home</a></li>
+            <li><a id="PresentationIcon" href="presentation.html">Presentation</a></li>
+            <li><a id="LabIcon" href="laborations.html">Laborations</a></li>
+            <li><a id="ContactIcon" href="contact.html" class="active">Contact </a></li>
         </ul>
     </div>
     <div id="content"> 
@@ -29,19 +30,20 @@
         <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
           <fieldset>
               <legend>Contact Me!</legend>
-                                Case:<select name="Case:">
-                                         <option  value="Question">Question</option>
-                                         <option  value="Statement">Statement</option>
-                                  </select>
-                                
-           Title:<input type="Text" name="Title:"><br> Message:
-          <textarea name="Text:" rows="3" cols="20"></textarea>
+                                     <div id=formCase><label>Case:</label><select name="Case:">
+                                     <option  value="Question">Question</option>
+                                     <option  value="Statement">Statement</option>
+                                     </select></div>
+                                     
+                                     <div id="formTitle"><label>Title:</label><input type="Text" name="Title:"></div> 
+                                     <div id="formMessage"><label>Message:</label></div>
+                                     <div id="formTextArea"><textarea name="Text:" rows="3" cols="20"></textarea></div>
           </fieldset>
                   <fieldset>
                       <legend>Contact me via:</legend>
                       
-                           <input type="checkbox" name="ContactByMail:" value="Mail">Mail   
-                           <input type="checkbox" name="ContactByPhone:" value="Phone">Phone
+                           <input type="checkbox" name="ContactByMail:" value="Mail"><label>Mail</label>   
+                           <input type="checkbox" name="ContactByPhone:" value="Phone"><label>Phone</label>
                         
                            <input type="submit">
                

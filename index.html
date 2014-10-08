@@ -2,9 +2,19 @@
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        
         <title>Filip's Site</title>
+        
+        <!-- All devices-->
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/print.css" media="print"/>
+        
+        <!-- Printfriendly -->
+        <link rel="stylesheet" href="css/print.css" media="print" />
+        
+        <!-- Smartphones -->
+        <meta name = "viewport" content ="width = device-width initial-scale = 1.0" />
+        
+        <link rel="stylesheet" href="css/screen.css" type = "text/css" media="screen and (max-width 480px)"/>
     </head>
     
     <body>
@@ -17,16 +27,16 @@
         <div id="logo">
         <a><img src="pics/Newlogo.png" alt="Logo" width="120" height="60"></a>
         </div>
-        <h1>Blog</h1>
+        <h1>Home</h1>
     </div>
   
     <div id="navigator">
     
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/laborations.html">Laborations</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a id="HomeIcon" href="index.html" class="active">Home</a></li>
+            <li><a id="PresentationIcon" href="pages/presentation.html">Presentation</a></li>
+            <li><a id="LabIcon" href="pages/laborations.html">Laborations</a></li>
+            <li><a id="ContactIcon" href="pages/contact.html">Contact</a></li>
         </ul>
     </div>
     
@@ -43,7 +53,7 @@
     It took aprox 4 hours for me to do that, because I am not so experienced with CSS yet. But i really liked the results!
     You can check it  out <a href="https://uppgift-3-3-c9-fr222cy.c9.io/index.html#">Here.</a></p>
         
-    </p>
+    
     <h3 class="Blogpicture">Lorem Ipsum</h3>
     <img src="pics/poker.jpg" class="RightClass" alt="Picture on pokerchips and cards" height="200" width="300">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum ultrices tellus, quis molestie lectus efficitur ac.
