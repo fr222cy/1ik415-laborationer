@@ -195,7 +195,7 @@ td
 
 #content fieldset
 {
-    position:relative;
+   
     top:100px;
     left:100px;
     font-size:25px;
@@ -237,18 +237,18 @@ td
 
 #formCase
 {
-margin-bottom:15px;
+    margin-bottom:15px;
 }
 
 #formTitle
 {
-margin-bottom:25px;
+    margin-bottom:25px;
 }
 
 #formMessage
 {
 
-float:left;
+    float:left;
 }
 
 #formTextArea

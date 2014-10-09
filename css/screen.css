@@ -1,29 +1,73 @@
-@media only screen 
-{
-
 body
 {
-max-width:480px;
-width:100%;
-}
+    max-width:100%;
+} 
 
 #container
 {
-
-width:100%;
+    max-width:100%;
 }
 
 #content
 {
+    max-width:100%;
+    margin-left:2%;
+    margin-right:2%;
 
 }
 #footer
 {
-width:100%;
-}
-#nav
-{
-width:100%;
+    max-width:100%;
 }
 
+
+#navigator 
+{
+    width: 100%;
+    line-height: 54px;
+    float: none;
+    font-size: 18px;
 }
+
+
+#logo 
+{
+    display:none;
+}
+
+img
+{
+    
+}
+
+#Loremtext img
+{
+    width:50%;
+}
+
+#Loremtext
+{
+    float:none;
+}
+
+dd
+{
+
+}
+
+#fieldset
+{
+    position:none;
+    float:none;
+    
+}
+
+#fieldset2
+{
+    
+    float:none;
+
+}
+
+
+
