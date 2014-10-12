@@ -193,65 +193,55 @@ td
 
 /*End Table*/
 
+
+
+/*Form*/
 #content fieldset
 {
-   
-    top:100px;
-    left:100px;
-    font-size:25px;
+    margin-left:100px;
     border:1px solid black;
-    border-radius:15px;
-    width:300px;
-    
-    
-/* Form */
-}
-#content form
+    width:378px;
+}   
+
+
+#InputText input
 {
-    
-    
+    width:375px;
+    display:block;
+    border: 1px solid #999;
+    height: 20px;
 }
 
-
-#content select
+#InputText Select
 {
-    font-size:20px;
+    font-size:17px;
+    margin-left:10px;
+    
 }
-
-#content input
+#content label
 {
     font-size:17px;
 }
 
-#content label
+#checkbox
 {
     
 }
 
-
-#content textarea
+#checkbox input
 {
-    max-height:200px;
-    max-width:400px;
+    width:17px;
+    height:17px;
+    
 }
 
-#formCase
+#InputText textarea
 {
-    margin-bottom:15px;
+    width:375px;
+    height:150px;
+    max-width:375px;
 }
 
-#formTitle
-{
-    margin-bottom:25px;
-}
-
-#formMessage
-{
-
-    float:left;
-}
-
-#formTextArea
 
 
 /*End Form*/

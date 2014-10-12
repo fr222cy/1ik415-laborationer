@@ -38,32 +38,45 @@
     <div id="content"> 
         
         <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-          <fieldset id="fieldset">
-              <legend>Contact Me!</legend>
+        
+        
+                                     <fieldset id="fieldset">
+              
+                                     <div id="InputText">
                                      <div id=formCase><label>Case:</label><select name="Case:">
                                      <option  value="Question">Question</option>
                                      <option  value="Statement">Statement</option>
+                                     
                                      </select></div>
                                      
-                                     <div id="formTitle"><label>Title:</label><input type="Text" name="Title:"></div> 
-                                     <div id="formMessage"><label>Message:</label></div>
-                                     <div id="formTextArea"><textarea name="Text:" rows="3" cols="20"></textarea></div>
-          </fieldset>
-                  <fieldset id=fieldset2>
-                      <legend>Contact me via:</legend>
-                      
-                           <input type="checkbox" name="ContactByMail:" value="Mail"><label>Mail</label>   
-                           <input type="checkbox" name="ContactByPhone:" value="Phone"><label>Phone</label>
-                        
-                           <input type="submit">
-               
-                  </fieldset>
-        </form>
-        
-          </div>
-        </div>
-            <div id="footer">
-              <p>Copyright © Filip Rydberg 2014; All rights resereved.</p>    
-    </div>
-  </body>
+                                     <div id="formTitle"><label>Name:</label><input type="Text" name="Name"></div>
+                                     <div id="formTitle"><label>E-Mail:</label><input type="Text" name="E-Mail Adress"></div>
+                                     <div id="formTitle"><label>Phone-Number:</label><input type="Text" name="Phone-Number"></div>
+                                     <div id="formTitle"><label>Title:</label><input type="Text" name="Title"></div>
+                                     
+                                    <div id="formMessage"><label>Message:</label></div>
+                                    <div id="formTextArea"><textarea name="Text:" rows="3" cols="20"></textarea></div>
+                                    </div>
+                                    
+                                    
+                                    <div id="checkbox">
+                                    <label>I want to be contacted via:</label><br>
+                                    <input type="radio" name="ContactType" value="Mail">Mail<br>
+                                    <input type="radio" name="ContactType" value="Phone">Phone
+                                    </div>
+                                   
+                                         
+                                     
+                                   
+                                    <div id="InputText">
+                                    <input type="submit">
+                                    </div>
+                                    </fieldset>
+                    </form>
+                 </div>
+             </div>
+         <div id="footer">
+         <p>Copyright © Filip Rydberg 2014; All rights resereved.</p>    
+         </div>
+    </body>
 </html>  
