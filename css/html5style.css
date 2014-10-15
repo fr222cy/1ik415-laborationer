@@ -162,3 +162,44 @@ footer
     background:url('pics/scroll2.png') no-repeat;
     padding-left:20px;    
 }
+
+
+#HomeIcon 
+{
+    background-position:0 -35px;
+}
+
+    #HomeIcon:hover 
+    {
+        background-position:0 14px;
+    }
+
+#PresentationIcon
+{
+    background-position:0 -225px;
+}
+
+    #PresentationIcon:hover
+    {
+        background-position:0 -176px;
+    }
+
+#LabIcon
+{
+    background-position:0 -131px;
+}
+
+    #LabIcon:hover
+    {
+        background-position:0 -82px;
+    }
+
+#ContactIcon
+{
+    background-position:0 -323px;
+}
+
+    #ContactIcon:hover
+    {
+        background-position:0 -274px;
+    }

@@ -1,0 +1,52 @@
+body
+{
+    max-width:100%;
+    font-size: 1em;
+} 
+
+main
+{
+    max-width:100%;
+}
+
+section
+{
+    max-width:100%;
+    margin-left:2%;
+    margin-right:2%;
+
+}
+footer
+{
+    max-width:100%;
+}
+
+
+nav 
+{
+    width: 100%;
+    line-height: 54px;
+    float: none;
+    font-size: 18px;
+}
+
+
+#logo 
+{
+    display:none;
+}
+
+img
+{
+    
+}
+
+#Loremtext img
+{
+    width:50%;
+}
+
+#Loremtext
+{
+    float:none;
+}

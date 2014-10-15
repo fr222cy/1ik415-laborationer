@@ -68,6 +68,62 @@ dd
 
 }
 
+/*Form*/
+
+#content fieldset
+{
+    margin-left:1px;
+    border:0px solid ;
+    width:320px;
+}   
 
 
+#InputText input
+{
+    width:320px;
+    display:block;
+    border: 1px solid ;
+    height: 20px;
+    font-size:25px;
+}
+
+#Submitbutton input
+{
+    float:right;
+    width:120px;
+    height:60px;
+    font-size:20px;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+
+#InputText Select
+{
+    font-size:17px;
+    margin-left:10px;
+    
+}
+#content label
+{
+    font-size:17px;
+}
+
+#checkbox
+{
+    
+}
+
+#checkbox input
+{
+    width:30px;
+    height:30px;
+    
+}
+
+#InputText textarea
+{
+    width:320px;
+    height:150px;
+    max-width:320px;
+    font-size:18px;
+}
 
