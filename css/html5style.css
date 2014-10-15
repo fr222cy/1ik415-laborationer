@@ -1,0 +1,164 @@
+html
+{
+    min-height:100%;
+}
+
+
+body
+{
+    font-size: 1em;
+    font-family: helvetica;
+    margin: 0px;
+    background: linear-gradient( Lightskyblue, white);  
+    color:#222;
+}
+
+
+h3 
+{
+    text-decoration:underline;
+}
+
+
+main
+{ 
+    width: 900px; 
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:Lightgoldenrodyellow;
+    border: 1px solid black;
+    border-top: 0px;
+    min-height: 700px;
+}
+
+
+header
+{
+    
+    background-image: url(pics/header.jpg);
+    height:70px;
+    border-bottom: 1px solid black;
+}
+    header h1 
+    {
+        text-align: center;
+        margin-top:0;
+        font-size: 40px;
+    }
+
+
+#logo
+{
+    float:left;
+    position:absolute;
+    
+}
+
+
+#musicsvg
+{
+    float:right;
+}
+
+
+/*Navigator Section*/
+
+nav
+{
+    width: 135px;
+    line-height: 54px;
+    float: left;
+    font-size: 18px;
+}
+
+
+nav ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav li 
+{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+	
+nav li a 
+{
+    padding-left: 3px;
+    display: block;
+    background-color: Lightskyblue;
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover 
+{
+    font-size: 19px;
+    background-color: Deepskyblue;
+}
+
+
+nav li .active
+{
+    background-color: Deepskyblue;
+}
+
+nav a
+{
+    background-image:url(pics/sprite.png);
+    background-repeat:no-repeat;
+    text-indent:25px;
+}
+
+/*End-Navigator*/
+
+
+section
+{
+    margin-left:152px;
+}
+
+
+footer
+{
+    position:relative;
+    text-align: center;
+    width:900px;
+    margin:auto;
+}
+
+
+/*Classes*/
+
+
+.RightClass
+{
+    float: right;
+    padding-right: 2px;
+}
+
+
+.LeftClass
+{
+    float: left;
+    padding: 5px;   
+}
+
+
+.clear
+{
+    clear:both;
+}
+
+
+.Blogpicture 
+{
+    background:url('pics/scroll2.png') no-repeat;
+    padding-left:20px;    
+}
