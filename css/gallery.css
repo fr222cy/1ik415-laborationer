@@ -1,0 +1,107 @@
+html
+{
+    height:100%;
+}
+
+body
+{
+    background-image:url(pics/wood.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    margin-top:100px;
+    margin-left:200px;
+    margin-right:120px;
+}
+
+h1
+{
+    text-align:center;
+    margin-right:50px;
+    margin-bottom:100px;
+}
+
+.gallery a
+{
+    
+    background-color:Lightgoldenrodyellow;
+    float:left;
+	margin-bottom:20px;
+	padding: 5px 5px 10px;
+	text-align: center;
+	text-decoration:none;
+    border:solid black 1px;
+    position:relative;
+    transition: all 0.4s linear;
+        -webkit-transition: all 0.4s linear;
+    	-moz-transition: all 0.4s linear;
+	transform: rotate(-10deg);
+    	-webkit-transform: rotate(-10deg);  
+        -moz-transform: rotate(-10deg);     
+    
+}
+.gallery a:after 
+{
+    font-family:helvetica;
+	color: black;
+	font-size: 15px;
+	content: attr(title);
+	position: relative;
+	top:5px;
+	
+}
+.gallery img 
+{ 
+	display: block; 
+	width: inherit; 
+	max-height:200px;
+    max-width:300px;
+    border:solid black 1px;
+}
+.gallery a:nth-child(2n)
+{
+    transform: rotate(8deg);
+        -webkit-transform: rotate(8deg);  
+        -moz-transform: rotate(8deg);     
+     
+}
+.gallery a:nth-child(3n)
+{ 
+    transform: rotate(-20deg); 
+    	-webkit-transform: rotate(-20deg);  
+    	-moz-transform: rotate(-20deg); 
+
+}
+.gallery a:nth-child(4n)
+{
+    transform: rotate(20deg); 
+    	-webkit-transform: rotate(20deg);  
+    	-moz-transform: rotate(20deg); 
+	
+}
+.gallery a:nth-child(5n)
+{
+    transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);  
+        -moz-transform: rotate(-10deg); 
+     
+}
+.gallery a:nth-child(6n)
+{
+    transform: rotate(1deg);
+        -webkit-transform: rotate(1deg);  
+        -moz-transform: rotate(1deg); 
+     
+}
+.gallery a:hover 
+{
+    transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);    
+    transform: scale(2);
+        -webkit-transform: scale(2); 
+    	-moz-transform: scale(2);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    	-moz-box-shadow: 0 10px 20px rgba(0,0,0,.7);
+    z-index:10;
+}
