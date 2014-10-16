@@ -196,13 +196,32 @@ td
 
 
 /*Form*/
+
+#content form
+{
+   
+}
+
 #content fieldset
 {
     margin-left:100px;
     border:1px solid black;
     width:378px;
 }   
-
+#hcard-Filip-Rydberg
+{
+    
+  text-align:center;
+  margin-left:160px;
+  margin-top:50px;
+  margin-bottom:-10px;
+  border-top:1px dashed black;
+  border-left:1px dashed black;
+  border-right:1px dashed black;
+  max-width:300px;
+  max-height:160px;
+    
+}
 
 #InputText input
 {
@@ -254,7 +273,7 @@ a:visited
 
 a:hover
 {
-    font-size:16.1px;
+    
 }
 
 /*Sprites*/

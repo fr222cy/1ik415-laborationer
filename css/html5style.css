@@ -55,7 +55,24 @@ header
     
 }
 
+#comment
+{
+border:1px solid black;
+display:block;
+max-width:300px;
+background-color:Lightskyblue;
 
+}
+
+#comment h4
+{
+    margin-top:0px;
+}
+#comment p
+{
+    padding-left:3px;
+    padding-right:3px;
+}
 #musicsvg
 {
     float:right;
